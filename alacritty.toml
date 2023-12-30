@@ -1,0 +1,56 @@
+[env]
+TERM = 'alacritty'
+
+[window]
+dimensions = { columns = 0, lines = 0 }
+padding = { x = 0, y = 0 }
+opacity = 1.0
+
+[scrolling]
+history = 100000
+multiplier = 3
+
+[font]
+normal = { family = 'monospace', style = 'Regular' }
+bold = { style = 'Bold' }
+italic = { style = 'Italic' }
+bold_italic = { style = 'Bold Italic' }
+size = 10
+
+[cursor]
+style = { shape = 'Block', blinking = 'Off' }
+vi_mode_style = { shape = 'Beam', blinking = 'Off' }
+
+# kanagawa colorscheme
+# https://github.com/rebelot/kanagawa.nvim/blob/master/extras/alacritty_kanagawa.yml
+[colors]
+indexed_colors = [{index = 16, color = '#b6927b' }, { index = 17, color = '#b98d7b' }]
+
+[colors.primary]
+background = '#181616'
+foreground = '#c5c9c5'
+
+[colors.normal]
+black = '#0d0c0c'
+red = '#c4746e'
+green = '#8a9a7b'
+yellow = '#c4b28a'
+blue = '#8ba4b0'
+magenta = '#a292a3'
+cyan = '#8ea4a2'
+white = '#c8c093'
+
+[colors.bright]
+black = '#a6a69c'
+red = '#e46876'
+green ='#87a987'
+yellow = '#e6c384'
+blue = '#7fb4ca'
+magenta = '#938aa9'
+cyan = '#7aa89f'
+white = '#c5c9c5'
+
+[colors.selection]
+background = '#2d4f67'
+foreground = '#c8c093'
+
