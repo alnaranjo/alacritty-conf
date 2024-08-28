@@ -1,5 +1,5 @@
 [env]
-TERM = 'alacritty'
+TERM = 'xterm-256color'
 
 [window]
 dimensions = { columns = 0, lines = 0 }
@@ -11,11 +11,11 @@ history = 100000
 multiplier = 3
 
 [font]
-normal = { family = 'monospace', style = 'Regular' }
-bold = { style = 'Bold' }
-italic = { style = 'Italic' }
-bold_italic = { style = 'Bold Italic' }
-size = 10
+normal = { family = 'Menlo Nerd Font', style = 'Regular' }
+bold = { family = 'Menlo Nerd Font', style = 'Bold' }
+italic = { family = 'Menlo Nerd Font', style = 'Italic' }
+bold_italic = { family = 'Menlo Nerd Font', style = 'Bold Italic' }
+size = 13
 
 [cursor]
 style = { shape = 'Block', blinking = 'Off' }
